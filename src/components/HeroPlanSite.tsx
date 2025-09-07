@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function HeroPlanSite() {
-  const [activeZone, setActiveZone] = useState<string | null>(null);
+  const [, setActiveZone] = useState<string | null>(null);
   const router = useRouter();
 
   // Zones interactives du plan (positions approximatives)
@@ -124,7 +124,7 @@ export default function HeroPlanSite() {
                 </h3>
                 <p className="text-sm lg:text-base text-stone-700 leading-relaxed">
                   Explorez mon univers artistique organisé autour des enjeux environnementaux contemporains. 
-                  Chaque section révèle une facette de ma démarche engagée, de l'art culinaire conceptuel 
+                  Chaque section révèle une facette de ma démarche engagée, de l&apos;art culinaire conceptuel 
                   aux bouleversements climatiques.
                 </p>
               </div>
@@ -230,7 +230,7 @@ export default function HeroPlanSite() {
               {/* Mobile instructions */}
               <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 text-center lg:hidden">
                 <p className="text-stone-600 text-xs font-medium bg-white/80 backdrop-blur-sm rounded-full px-3 py-1 shadow-sm">
-                  Tapez sur l'image pour naviguer
+                  Tapez sur l&apos;image pour naviguer
                 </p>
               </div>
             </div>
