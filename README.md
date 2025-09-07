@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EBCY - Portfolio Artistique d'Emmanuelle Baudin
 
-## Getting Started
+Un portfolio artistique moderne développé avec Next.js 15, présentant les œuvres d'Emmanuelle Baudin (EBCY), artiste contemporaine spécialisée dans l'art environnemental.
 
-First, run the development server:
+## 🎨 À propos
+
+Ce portfolio présente l'univers artistique d'Emmanuelle Baudin à travers différentes thématiques :
+
+- **Techniques** - Exploration des techniques artistiques contemporaines
+- **Trop Humain** - Réflexion sur la condition humaine moderne
+- **Épicerie** - Projet artistique autour du concept d'épicerie
+- **Chevaux** - Série artistique équestre
+- **Bouleversement Climatique** - Sensibilisation environnementale
+- **Ruralité** - Exploration de la vie rurale française
+- **Poissons** - Série marine et aquatique
+- **Oiseaux** - Monde aviaire et liberté
+- **Rivages** - Paysages côtiers et littoraux
+- **7ème Continent** - Projet de sensibilisation aux déchets plastiques
+
+## 🚀 Technologies utilisées
+
+- **Next.js 15** - Framework React avec App Router
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Framework CSS utilitaire
+- **Google Fonts** - Typographie (Inter & Playfair Display)
+- **Responsive Design** - Compatible tous écrans
+
+## 📱 Fonctionnalités
+
+- ✨ Design responsive et moderne
+- 🎭 Navigation fluide entre les sections
+- 🖼️ Galerie d'images optimisée
+- 🌿 Thème environnemental cohérent
+- 🇫🇷 Contenu entièrement en français
+- 🔍 SEO optimisé pour les moteurs de recherche
+
+## 🛠️ Installation et développement
+
+### Prérequis
+- Node.js 18+ 
+- npm ou yarn
+
+### Installation
 
 ```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Serveur de développement
+- `npm run build` - Build de production
+- `npm run start` - Serveur de production
+- `npm run lint` - Vérification ESLint
 
-## Learn More
+## 📁 Structure du projet
 
-To learn more about Next.js, take a look at the following resources:
+```
+ebcy-portfolio/
+├── src/
+│   ├── app/                 # Pages App Router
+│   │   ├── layout.tsx       # Layout principal
+│   │   ├── page.tsx         # Page d'accueil
+│   │   ├── globals.css      # Styles globaux
+│   │   └── [sections]/      # Pages des sections
+│   └── components/          # Composants React
+│       └── Navigation.tsx   # Navigation principale
+├── public/
+│   └── assets/
+│       └── images/          # Images du portfolio
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Prochaines étapes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] Ajouter plus de pages de sections
+- [ ] Créer une galerie d'images détaillée
+- [ ] Implémenter un système de contact
+- [ ] Ajouter des animations avancées
+- [ ] Optimiser les performances
+- [ ] Déployer en production
 
-## Deploy on Vercel
+## 📞 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Emmanuelle Baudin (EBCY)**  
+Artiste contemporaine et sensibilisation environnementale
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+*Développé avec ❤️ et Next.js pour présenter l'art contemporain français*

@@ -1,0 +1,16 @@
+{
+  "name": "EBCY - Portfolio Artistique d'Emmanuelle Baudin",
+  "short_name": "EBCY Portfolio",
+  "description": "Portfolio artistique d'Emmanuelle Baudin - Art contemporain et sensibilisation environnementale",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef7ed",
+  "theme_color": "#292524",
+  "icons": [
+    {
+      "src": "/assets/images/LOGO - EBCY poisson - final.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ]
+}
